@@ -21,6 +21,12 @@ So under the Subscription Handler we add: ```exampleOffline = new OfflineMongo({
 })```
 Note that name is optional (it is only key for local storage).
 
-Now to access our offline data just use:
-`exampleOffline.collection`
+Now to access our offline data just type:
+```javascript
+exampleOffline.collection
+```
 
+
+<h3>License</h3>
+
+OfflineMongo is licensed under the MIT license.
