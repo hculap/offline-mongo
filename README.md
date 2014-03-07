@@ -4,8 +4,8 @@ OfflineMongo is a small package that provides offline collections. To store data
 
 <h3>Getting Started</h3>
 <ol>
-<li>`npm install -g meteorite` (if not already installed)</li>
-<li>`mrt add OfflineMongo` </li>
+<li> npm install -g meteorite (if not already installed)</li>
+<li> mrt add OfflineMongo</li>
 </ol>
 
 <h3>How to use?</h3>
