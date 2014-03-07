@@ -5,5 +5,8 @@
     "author": "Szymon Paluch <hculap@gmail.com>",
     "version": "0.1.0",
     "git": "https://github.com/hculap/offline-mongo.git",
-    "packages": {}
+    "packages": {
+        "appcache": {},
+        "underscore": {}
+    }
 }
