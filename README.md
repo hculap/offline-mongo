@@ -9,11 +9,20 @@ OfflineMongo is a small package that provides offline collections. To store data
 <h3>How to use?</h3>
 First we need to create Collection, Publication, Subscription, Subscription Handler;
 
-Collection: `Example = new Meteor.Collection('example'); // collections/example.js`
+Collection: 
+```javascript
+Example = new Meteor.Collection('example'); // collections/example.js
+```
 
-Publication: `Meteor.publish('example' function(){ return Example.find(); }); // server/publications.js`
+Publication: 
+```javascript
+Meteor.publish('example' function(){ return Example.find(); }); // server/publications.js
+```
 
-Subscription and Subscription Handler: `subHandler = Meteor.subscribe('example'); // client/main.js` 
+Subscription and Subscription Handler: 
+```javascript
+subHandler = Meteor.subscribe('example'); // client/main.js
+``` 
 
 Ok, now we are ready to add our "Offline Collection";
 
