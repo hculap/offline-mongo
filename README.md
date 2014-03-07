@@ -3,8 +3,10 @@
 OfflineMongo is a small package that provides offline collections. To store data from "Online Collection" uses LocalStorage. this package also uses APPCACHE to turn ouer static files available offline.
 
 <h3>Getting Started</h3>
-1.`npm install -g meteorite` (if not already installed)</br>
-2.`mrt add OfflineMongo` </br>
+<ol>
+<li>`npm install -g meteorite` (if not already installed)</li>
+<li>`mrt add OfflineMongo` </li>
+</ol>
 
 <h3>How to use?</h3>
 First we need to create Collection, Publication, Subscription, Subscription Handler;
