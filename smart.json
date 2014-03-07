@@ -1,0 +1,9 @@
+{
+    "name": "Offline Mongo",
+    "description": "A package that provides offline collections",
+    "homepage": "https://github.com/hculap/offline-mongo",
+    "author": "Szymon Paluch <hculap@gmail.com>",
+    "version": "0.1.0",
+    "git": "https://github.com/hculap/offline-mongo.git",
+    "packages": {}
+}
