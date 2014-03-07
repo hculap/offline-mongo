@@ -26,8 +26,10 @@ subHandler = Meteor.subscribe('example'); // client/main.js
 
 Ok, now we are ready to add our "Offline Collection";
 
-So under the Subscription Handler we add: ```exampleOffline = new OfflineMongo({name: 'exampleName', collection: Example, handler: subHandler
-})```
+So under the Subscription Handler we add: 
+```javascript
+exampleOffline = new OfflineMongo({name: 'exampleName', collection: Example, handler: subHandler});
+```
 Note that name is optional (it is only key for local storage).
 
 Now to access our offline data just type:
