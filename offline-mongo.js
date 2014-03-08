@@ -2,7 +2,7 @@ OfflineMongo = function(options) {
     var self = this;
     var name = options.name;
     if (!options.name)
-        name = posts._name;
+        name = options.collection._name;
     Deps.autorun(function() {
         if (options.handler.ready() && Meteor.status().connected) {
             localStorage.setItem(name, JSON.stringify(options.collection.find().fetch()));
