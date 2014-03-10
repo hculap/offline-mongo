@@ -9,7 +9,9 @@ OfflineMongo = function(options) {
         }
         self.collection = new Meteor.Collection(null);
         _.each(JSON.parse(localStorage.getItem(name)), function(item) {
-            self.collection.insert(item);
+            if (item._id) {
+                self.collection.insert(item);
+            }
         });
     });
 };
