@@ -10,6 +10,7 @@ OfflineMongo = function(options) {
         self.collection = new Meteor.Collection(null);
         _.each(JSON.parse(localStorage.getItem(name)), function(item) {
             if (item._id) {
+                item._id = item._id._str;
                 self.collection.insert(item);
             }
         });
