@@ -3,7 +3,7 @@
     "description": "A package that provides offline collections",
     "homepage": "https://github.com/hculap/offline-mongo",
     "author": "Szymon Paluch <hculap@gmail.com>",
-    "version": "0.1.6",
+    "version": "0.1.7",
     "git": "https://github.com/hculap/offline-mongo.git",
     "packages": {}
 }
